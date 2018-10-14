@@ -1,0 +1,77 @@
+@relation InstanceResultListener
+
+@attribute Key_Dataset {pandasdata}
+@attribute Key_Run {1}
+@attribute Key_Scheme {weka.classifiers.lazy.IBk}
+@attribute Key_Scheme_options {'-K 28 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"','-K 20 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"','-K 16 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"','-K 8 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"','-K 4 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"','-K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"'}
+@attribute Key_Scheme_version_ID {-3080186098777067172}
+@attribute Date_time numeric
+@attribute Number_of_training_instances numeric
+@attribute Number_of_testing_instances numeric
+@attribute Number_correct numeric
+@attribute Number_incorrect numeric
+@attribute Number_unclassified numeric
+@attribute Percent_correct numeric
+@attribute Percent_incorrect numeric
+@attribute Percent_unclassified numeric
+@attribute Kappa_statistic numeric
+@attribute Mean_absolute_error numeric
+@attribute Root_mean_squared_error numeric
+@attribute Relative_absolute_error numeric
+@attribute Root_relative_squared_error numeric
+@attribute SF_prior_entropy numeric
+@attribute SF_scheme_entropy numeric
+@attribute SF_entropy_gain numeric
+@attribute SF_mean_prior_entropy numeric
+@attribute SF_mean_scheme_entropy numeric
+@attribute SF_mean_entropy_gain numeric
+@attribute KB_information numeric
+@attribute KB_mean_information numeric
+@attribute KB_relative_information numeric
+@attribute True_positive_rate numeric
+@attribute Num_true_positives numeric
+@attribute False_positive_rate numeric
+@attribute Num_false_positives numeric
+@attribute True_negative_rate numeric
+@attribute Num_true_negatives numeric
+@attribute False_negative_rate numeric
+@attribute Num_false_negatives numeric
+@attribute IR_precision numeric
+@attribute IR_recall numeric
+@attribute F_measure numeric
+@attribute Matthews_correlation numeric
+@attribute Area_under_ROC numeric
+@attribute Area_under_PRC numeric
+@attribute Weighted_avg_true_positive_rate numeric
+@attribute Weighted_avg_false_positive_rate numeric
+@attribute Weighted_avg_true_negative_rate numeric
+@attribute Weighted_avg_false_negative_rate numeric
+@attribute Weighted_avg_IR_precision numeric
+@attribute Weighted_avg_IR_recall numeric
+@attribute Weighted_avg_F_measure numeric
+@attribute Weighted_avg_matthews_correlation numeric
+@attribute Weighted_avg_area_under_ROC numeric
+@attribute Weighted_avg_area_under_PRC numeric
+@attribute Unweighted_macro_avg_F_measure numeric
+@attribute Unweighted_micro_avg_F_measure numeric
+@attribute Elapsed_Time_training numeric
+@attribute Elapsed_Time_testing numeric
+@attribute UserCPU_Time_training numeric
+@attribute UserCPU_Time_testing numeric
+@attribute UserCPU_Time_millis_training numeric
+@attribute UserCPU_Time_millis_testing numeric
+@attribute Serialized_Model_Size numeric
+@attribute Serialized_Train_Set_Size numeric
+@attribute Serialized_Test_Set_Size numeric
+@attribute Coverage_of_Test_Cases_By_Regions numeric
+@attribute Size_of_Predicted_Regions numeric
+@attribute Summary string
+
+@data
+
+pandasdata,1,weka.classifiers.lazy.IBk,'-K 28 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20180205.0242,137,59,0,59,0,0,100,0,0,0.010203,0.071939,100.290415,100.741175,494.383324,788.315105,-293.931781,8.379378,13.361273,-4.981895,-0.24684,-0.004184,-3.266566,?,0,0.40678,24,0.59322,35,?,0,0,?,?,?,?,?,0,0,1,1,?,0,?,?,0.5,0.071352,?,0,0.001,0.015,0,0.0156,0,15.6001,145200,140967,123729,0,41.15358,?
+pandasdata,1,weka.classifiers.lazy.IBk,'-K 20 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20180205.0242,137,59,0,59,0,0,100,0,0,0.010203,0.072063,100.287647,100.915279,494.383324,772.801057,-278.417734,8.379378,13.098323,-4.718945,-0.24449,-0.004144,-3.235473,?,0,0.40678,24,0.59322,35,?,0,0,?,?,?,?,?,0,0,1,1,?,0,?,?,0.5,0.064774,?,0,0,0.007,0,0.0156,0,15.6001,145200,140967,123729,0,36.691456,?
+pandasdata,1,weka.classifiers.lazy.IBk,'-K 16 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20180205.0242,137,59,0,59,0,0,100,0,0,0.010202,0.072222,100.284052,101.13783,494.383324,755.105702,-260.722378,8.379378,12.798402,-4.419023,-0.241439,-0.004092,-3.195089,?,0,0.40678,24,0.59322,35,?,0,0,?,?,?,?,?,0,0,1,1,?,0,?,?,0.5,0.070235,?,0,0,0.014,0,0,0,0,145200,140967,123729,3.389831,33.716707,?
+pandasdata,1,weka.classifiers.lazy.IBk,'-K 8 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20180205.0242,137,59,0,59,0,0,100,0,0,0.010201,0.072647,100.273842,101.733271,494.383324,720.964923,-226.581599,8.379378,12.219744,-3.840366,-0.232772,-0.003945,-3.080392,?,0,0.338983,20,0.661017,39,?,0,0,?,?,?,?,?,0,0,1,1,?,0,?,?,0.5,0.070619,?,0,0.001,0.006,0,0,0,0,145200,140967,123729,18.644068,36.310965,?
+pandasdata,1,weka.classifiers.lazy.IBk,'-K 4 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20180205.0242,137,59,0,59,0,0,100,0,0,0.010199,0.073534,100.248788,102.974741,494.383324,673.821048,-179.437725,8.379378,11.420696,-3.041317,-0.211496,-0.003585,-2.798835,?,0,0.169492,10,0.830508,49,?,0,0,?,?,?,?,?,0,0,1,1,?,0,?,?,0.5,0.053581,?,0,0,0.007,0,0.0156,0,15.6001,145200,140967,123729,37.288136,46.843653,?
+pandasdata,1,weka.classifiers.lazy.IBk,'-K 1 -W 0 -A \"weka.core.neighboursearch.LinearNNSearch -A \\\"weka.core.EuclideanDistance -R first-last\\\"\"',-3080186098777067172,20180205.0242,137,59,0,59,0,0,100,0,0,0.01019,0.075299,100.159482,105.447014,494.383324,591.685395,-97.302071,8.379378,10.028566,-1.649188,-0.135597,-0.002298,-1.794424,?,0,0.050847,3,0.949153,56,?,0,0,?,?,?,?,?,0,0,1,1,?,0,?,?,0.5,0.04015,?,0,0.001,0.007,0,0.0156,0,15.6001,144824,140967,123729,64.40678,66.776202,?
